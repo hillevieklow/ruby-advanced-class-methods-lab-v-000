@@ -53,8 +53,6 @@ class Song
     self.all.clear
   end
 
-
-
   def self.all
     @@all
   end
