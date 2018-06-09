@@ -38,11 +38,12 @@ class Song
     song_name = song_data[1].split(".")[0]
   end
 
-  def create_from_filename(file_name)
+  def self.create_from_filename(file_name)
     song = self.new_from_filename(file_name)
     song.save
     song
   end
+
 
 
 
